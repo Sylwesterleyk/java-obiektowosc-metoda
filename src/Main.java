@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+
+        // ZADANIE 1
+
         char[] blue = {'b', 'l', 'u', 'e'};
         char[] yellow = {'y', 'e', 'l', 'l', 'o', 'w'};
         char[] red = {'r', 'e', 'd'};
@@ -13,5 +16,14 @@ public class Main {
         a1.increseConsistency(0.01);
         System.out.println(a1.consistency);
 
+        // ZADANIE 2
+
+        Picture one = new Picture(5, '$');
+        Picture two = new Picture(100, 'K');
+        Picture three = new Picture(59, 't');
+
+        one.display();
+        two.display();
+        three.display();
     }
 }
